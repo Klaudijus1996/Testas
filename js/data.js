@@ -13,31 +13,3 @@ const account = [
     { month: 8, income: 450, expense: 120 },
     { month: 12, expense: 200 }
 ];
-
-// function compare(a, b) {
-//     const bandA = a.month;
-//     const bandB = b.month;
-  
-//     let comparison = 0;
-//     if (bandA > bandB) {
-//       comparison = 1;
-//     } else if (bandA < bandB) {
-//       comparison = -1;
-//     }
-//     return comparison;
-//   }
-  
-//   console.log(account.sort(compare));
-
-// function compare(a,b) {
-//     const monthA = a.month;
-//     const monthB = b.month;
-//     let comp = 0;
-//     if (monthA > monthB) {
-//         comp = 1;
-//     } else if (monthB > monthA) {
-//         comp = -1;
-//     }
-//     return comp
-// }
-// console.log(account.sort(compare))
